@@ -1,0 +1,13 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/output/relWithDebInfo",
+        "--header-insertion=never",
+        "--background-index",
+        "--background-index-priority=normal",
+        "-j",
+        "8",
+        "--completion-style=detailed", // tipi di ritorno
+        "--function-arg-placeholders", // parametri
+        "--header-insertion-decorators",
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/output/relWithDebInfo/qt_project_sandbox.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "C:/workspaces/Qt5.15.14-Windows-x86_64-VS2022-17.10.3/bin;${env:PATH}"
+                }
+            ],
+            "externalConsole": false
+        }
+    ]
+}
