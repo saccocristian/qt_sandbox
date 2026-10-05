@@ -4,8 +4,6 @@
 #include <QApplication>
 #include <QTextEdit>
 
-int create_csv();
-
 int main(int argv, char **args) {
 
   QApplication app(argv, args);
@@ -15,6 +13,6 @@ int main(int argv, char **args) {
   main_window main_window;
 
   return app.exec();
-  int ok = create_csv();
+
   return 0;
 }

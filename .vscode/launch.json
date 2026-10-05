@@ -5,7 +5,7 @@
             "name": "Debug",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/output/relWithDebInfo/qt_project_sandbox.exe",
+            "program": "${workspaceFolder}/output/relWithDebInfo/qt_sandbox.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
