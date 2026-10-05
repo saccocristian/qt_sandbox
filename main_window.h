@@ -15,11 +15,11 @@ public:
   explicit main_window(QWidget *parent = nullptr);
   ~main_window();
 
-private slots:
-  void start_timer(int timer_value);
-  void add_item();
-  void change_label();
-  void update_progressBar();
+  // private slots:
+  //   void start_timer(int timer_value);
+  //   void add_item();
+  //   void change_label();
+  //   void update_progressBar();
 
 signals:
   void cleanup();
@@ -28,5 +28,5 @@ private:
   class main_window_impl;
   std::unique_ptr<main_window_impl> impl;
   std::unique_ptr<Ui::main_window> ui;
-  void load_items();
+  // void load_items();
 };

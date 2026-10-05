@@ -12,15 +12,10 @@ find_package(Qt5 REQUIRED COMPONENTS Widgets)
 
 add_executable(${PROJECT_NAME}
     main.cpp
-
+    utils.h
     main_window.h
     main_window.cpp
     main_window.ui
-
-    Worker.h
-    Worker.cpp
-    my_thread.h
-    my_thread.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE

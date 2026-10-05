@@ -7,12 +7,10 @@
 int main(int argv, char **args) {
 
   QApplication app(argv, args);
-  QCoreApplication::setOrganizationName("CS");
-  QCoreApplication::setApplicationName(utils::settings_group);
+  QCoreApplication::setOrganizationName(utils::organization_name);
+  QCoreApplication::setApplicationName(utils::application_name);
 
   main_window main_window;
 
   return app.exec();
-
-  return 0;
 }
